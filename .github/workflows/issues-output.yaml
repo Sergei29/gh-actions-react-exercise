@@ -1,9 +1,7 @@
 name: Issues Output
-on: 
-  issues:
-    types: [opened, edited, deleted]
+on: issues
 jobs:
-  info:
+  output-info:
     runs-on: ubuntu-latest
     steps:
       - name: Output issue event details
