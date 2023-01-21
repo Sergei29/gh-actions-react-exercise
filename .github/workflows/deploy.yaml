@@ -2,7 +2,6 @@ name: Test Lint and Deploy Project
 on: push
 jobs:
   lint:
-    needs: install
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
